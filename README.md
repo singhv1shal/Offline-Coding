@@ -1,6 +1,7 @@
 # Offline-Coding
 
 ## Problem:-
+
 Sometimes due to low internet speed and electricity issues some of our friends fail to submit the problems given in the google sheet and they lack and get demotivated . <br/>
 
 ## Solution
