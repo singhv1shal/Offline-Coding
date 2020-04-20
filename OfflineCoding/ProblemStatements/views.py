@@ -12,6 +12,9 @@ from oauth2client.service_account import ServiceAccountCredentials
 from pprint import pprint
 from selenium.webdriver.chrome.options import Options
 from django.shortcuts import render, redirect, get_object_or_404, HttpResponse
+from django.conf import settings
+from wsgiref.util import FileWrapper
+import urllib, mimetypes
 
 class color:
 
@@ -91,16 +94,19 @@ def scrapLeetCode(l,r,choice):
         list.append(get(link) + "\n"+"\n")
 
     changeline = '*'*200
-
+    l=l-5
+    r=r-5
     name='output-'+choice+'-' + str(l) + '-' + str(r)+".txt"
-    f=open(name,"w+")
+    file_path=settings.MEDIA_ROOT+'/'+name
+    f=open(file_path,"w+")
     for st in list:
         f.write(st+"\n")
     f.close()
+    return name
 
 
 def download(request):
-    # print("-------------------hello")
+    print("-------------------hello")
     if request.method=='POST':
         # print("world")
         form=InputForm(request.POST)
@@ -113,7 +119,15 @@ def download(request):
             print(r)
             print(choice)
             try:
-                scrapLeetCode(l,r,choice)
+                file_name=scrapLeetCode(l,r,choice)
+                file_path = settings.MEDIA_ROOT +'/'+ file_name
+                file_wrapper = FileWrapper(open(file_path,'rb'))
+                file_mimetype = mimetypes.guess_type(file_path)
+                response = HttpResponse(file_wrapper, content_type=file_mimetype )
+                response['X-Sendfile'] = file_path
+                response['Content-Length'] = os.stat(file_path).st_size
+                response['Content-Disposition'] = 'attachment; filename=%s/' % str(file_name)
+                return response
             except Exception as e:
                 print(e)
                 # return HttpResponse('Sorry! Slow Internet Speed')
