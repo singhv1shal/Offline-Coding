@@ -27,12 +27,12 @@ In this way , people can cope up with the problem and can utilise these quaranti
 Open index.html file and give the input in L, R and Choice of Sheet representing Lower and Upper Limit of cell
 and Choice represents the choice of the sheet ie. easy , medium and hard . <br/>
 ### Follow this image for better understanding :
-![](read-me/WhatsApp%20Image%202020-04-20%20at%2019.01.54.jpeg)
+![](readme-img/WhatsApp%20Image%202020-04-20%20at%2019.01.54.jpeg)
 
 
 ## Downloads txt file to mentioned path
 
 ### The output will be generated in a .txt file containing all problem statement in the given range :
-![](read-me/WhatsApp%20Image%202020-04-20%20at%2019.03.06.jpeg)
+![](readme-img/WhatsApp%20Image%202020-04-20%20at%2019.03.06.jpeg)
 
  
