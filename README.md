@@ -1,6 +1,12 @@
 # Offline-Coding
-This project is for people getting network connectivity issues or power cut issues in their locality. It helps to collect problems offline (downloaded in file) when network or power is available, to practice it at a later time.
 
+## Problem:-
+Sometimes due to low internet speed and electricity issues some of our friends fail to submit the problem of the sheet and they lack and get demotivated . <br/>
+
+## Solution
+We have devised a solution for this problem by making a web portal in which you can give the starting and ending range of the problem statement and the choice of the sheet ie. easy , medium and hard . All the problem statements will get downloaded in a .txt file which can be used anytime to solve the problem . Students can code the solution offline and can submit the problem later . <br/>
+
+In this way , people can cope up with the problem and can utilise these quarantine days .
 
 ## Requirements <br/>
 
