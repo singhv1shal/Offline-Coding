@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|PT+Sans');
+
+body {
+  background-color: #a30f2f;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%2300194a' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23a30f2f' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%239e0632' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23980034' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23920036' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%238c0038' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23860039' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2380003b' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2379003c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2372003c' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%236b003d' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2364003d' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%235d003d' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2356003c' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%234e003c' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2347003b' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23400039' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23380038' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23310036' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  /* background by SVGBackgrounds.com */
+}
+
+.main-container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 46px;
+  font-family: 'Oleo Script', cursive;
+  color: white;
+  margin-top: 100px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  margin: 0px 0px 30px 0;
+  padding: 15px 15px;
+  width: 100%;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+
+label {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  left: 32px;
+  top: 15px;
+  -webkit-transition: font-size 0.1s ease, padding-top 0.1s ease;
+  transition: font-size 0.1s ease, padding-top 0.1s ease;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+input:focus + label {
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  -webkit-transition: margin-top 0.3s ease, font-size 0.3s ease;
+  transition: margin-top 0.3s ease, font-size 0.3s ease;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.submit input {
+  font-size: 18px;
+  background: #45DBE3;
+  color: #fff;
+}
+
+button {
+  background: #D93452;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  border: 2px solid #D93452;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button:hover {
+  background: #F51C45;
+  -webkit-transition: background .4s, border .4s;
+  transition: background .4s, border .4s;
+  border: 2px solid white;
+}
