@@ -5,8 +5,9 @@ Sometimes due to low internet speed and electricity issues some of our friends f
 
 ## Solution
 We have devised a solution for this problem by making a web portal in which one can give the starting and ending range of the problem statement and the choice of the category ie. easy , medium and hard . All the problem statements will get downloaded in a .txt file which can be used anytime to solve the problem . Students can code the solution offline and can submit the problem later . <br/>
-
+###Google sheets should be in the following format :
 ![Google sheet in the following format](Screenshot%20(2).png)
+
 
 In this way , people can cope up with the problem and can utilise these quarantine days .
 
