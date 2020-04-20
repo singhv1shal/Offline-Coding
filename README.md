@@ -13,15 +13,6 @@ We have devised a solution for this problem by making a web portal in which one 
 
 In this way , people can cope up with the problem and can utilise these quarantine days .
 
-## Requirements <br/>
-
-1) Install gspread from terminal using command <br/>
- > pip install gspread <br/>
-2) Install beautiful Soup from terminal using command <br/>
-> pip install beautifulsoup4
-3) Install selenium from terminal using command <br/>
-> pip install selenium
-
 ## How to run
 
 Open index.html file and give the input in L, R and Choice of Sheet representing Lower and Upper Limit of cell
