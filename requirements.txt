@@ -1,0 +1,4 @@
+django==3.0.3
+gspread
+beautifulsoup4
+selenium
