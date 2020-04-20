@@ -28,6 +28,11 @@ and Choice represents the choice of the sheet ie. easy , medium and hard . <br/>
 ### Follow this image for better understanding :
 ![](WhatsApp%20Image%202020-04-20%20at%2019.01.54.jpeg)
 
-The output will be generated in a .txt file containing all problem statement from L to R .
+
+## Downloads txt file to mentioned path
+
+### The output will be generated in a .txt file containing all problem statement in the given range :
+
+
 
  
